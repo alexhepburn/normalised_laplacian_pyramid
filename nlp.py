@@ -11,6 +11,7 @@ import numpy as np
 
 from gdn import GDN
 
+import conv_utils
 
 LAPLACIAN_FILTER = np.array([[0.0025, 0.0125, 0.0200, 0.0125, 0.0025],
                              [0.0125, 0.0625, 0.1000, 0.0625, 0.0125],
